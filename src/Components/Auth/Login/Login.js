@@ -18,7 +18,7 @@ const Login = () => {
   return (
     <div className="auth-wrapper">
       <form onSubmit={_onHandleSubmit}>
-        <h3 style={{ textAlign: "center" }}>Get Started</h3>
+        <h3 className = 'form_heading'>Login</h3>
         <input
           className="form-item"
           type="text"

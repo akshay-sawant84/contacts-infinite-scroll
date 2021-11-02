@@ -61,10 +61,10 @@ h3 {
   width: 50%;
   display: flex;
   justify-content: center;
-  margin: 10px 10px;
+  margin: 10px 0px;
 }
 
-@media (min-width: 768px) and (max-width: 1023px) {
+@media (min-width: 768px) and (max-width: 1024px) {
   .contact_list-details {
     width: 100%;
     display: flex;

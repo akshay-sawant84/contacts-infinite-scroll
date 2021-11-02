@@ -1,4 +1,3 @@
-
 .auth-wrapper {
   display: flex;
   justify-content: center;
@@ -19,7 +18,7 @@ form {
 }
 
 form .form-item {
-  height: 30px;
+  height: 50px;
   padding: 10px;
   font-size: 16px;
   width: 300px;
@@ -40,6 +39,11 @@ input[type="submit"] {
   cursor: pointer;
 }
 
+.form_heading {
+  text-align: center;
+  color: #fff;
+}
+
 @media (max-width: 500px) {
   .auth-wrapper {
     width: 100%;
@@ -50,5 +54,13 @@ input[type="submit"] {
     background-color: transparent;
     box-shadow: none;
     padding: 20px;
+  }
+
+  form .form-item {
+    width: 100%;
+  }
+
+  .form_heading {
+    color: #000;
   }
 }

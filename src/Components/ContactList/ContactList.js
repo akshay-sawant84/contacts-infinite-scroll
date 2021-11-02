@@ -52,13 +52,14 @@ const ContactList = () => {
         hasMore={hasMore}
         loader={
           <div className="contact_list">
-            {[...Array(10)].map((n) => (
-              <Skeleton />
+            {[...Array(10)].map((n, i) => (
+              <Skeleton key = {i} />
             ))}
           </div>
         }
+        // scrollThreshold="0px"
         endMessage={
-          <h4 className="scroll-end-text">
+          <h4 className = 'scroll-end-text'>
             <b>Yay! You have seen it all</b>
           </h4>
         }
