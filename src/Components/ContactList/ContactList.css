@@ -1,0 +1,31 @@
+.container {
+  padding: 0px 150px;
+}
+
+.contact-header {
+  text-align: center;
+  margin: 30px 0 50px 0;
+}
+
+.contact_list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.scroll-end-text {
+  text-align: center;
+  margin: 25px 0;
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .container {
+    padding: 0px 30px;
+  }
+}
+
+@media (max-width: 720px) {
+  .container {
+    padding: 0px 15px;
+  }
+}
